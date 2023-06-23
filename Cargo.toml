@@ -1,0 +1,20 @@
+[package]
+name = "starkit"
+version = "0.1.0"
+edition = "2021"
+description = "A simple app to browse photos of dogs"
+
+[dependencies]
+dioxus = "0.3.2"
+dioxus-desktop = "0.3.0"
+
+[package.metadata.bundle]
+name = "Starkit"
+identifier = "io.starknet.starkit"
+version = "0.0.1"
+copyright = "Copyright (c) Abdelhamid Bakhta 2023. All rights reserved."
+category = "Developer Tool"
+short_description = "Simply interact with Starknet Appchains"
+long_description = """
+Starkit is a simple app to interact with Starknet Appchains.
+"""
