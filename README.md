@@ -11,7 +11,7 @@ cargo run
 Start the TailwindCSS watcher to generate the output CSS file:
 
 ```bash
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./input.css -o ./public/tailwind.css --watch
 ```
 
 ## Publish
