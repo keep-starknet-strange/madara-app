@@ -18,6 +18,7 @@ serde_json = { version = "1.0.96", features = ["preserve_order"] }
 serde_with = "2.3.3"
 url = "2.4.0"
 lazy_static = "1.4.0"
+eyre = "0.6.8"
 
 [package.metadata.bundle]
 name = "Starkit"
