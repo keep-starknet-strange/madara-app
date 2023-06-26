@@ -42,8 +42,13 @@ fn App(cx: Scope) -> Element {
 
     // Render the component.
     render!(
-        // Import Tailwind CSS.
-        link { rel: "stylesheet", href: "../dist/output.css" },
+        head {
+            // Import Tailwind CSS.
+            link {
+                rel: "stylesheet",
+                href: "/public/tailwind.css"
+            }
+        },
         div {
             class: "text-3xl font-bold",
             "Madara Kit"
