@@ -1,5 +1,5 @@
 [package]
-name = "starkit"
+name = "madara-kit"
 version = "0.1.0"
 edition = "2021"
 description = "A simple app to interact with Starknet Appchains"
@@ -19,14 +19,15 @@ serde_with = "2.3.3"
 url = "2.4.0"
 lazy_static = "1.4.0"
 eyre = "0.6.8"
+dioxus-web = "0.3.2"
 
 [package.metadata.bundle]
-name = "Starkit"
-identifier = "io.starknet.starkit"
+name = "Madara Kit"
+identifier = "io.starknet.madarakit"
 version = "0.0.1"
 copyright = "Copyright (c) Abdelhamid Bakhta 2023. All rights reserved."
 category = "Developer Tool"
 short_description = "Simply interact with Starknet Appchains"
 long_description = """
-Starkit is a simple app to interact with Starknet Appchains.
+Madara Kit is a simple app to interact with Starknet Appchains.
 """
