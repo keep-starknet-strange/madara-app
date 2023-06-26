@@ -1,4 +1,10 @@
-# starkit
+# madara-kit
+
+## Run
+
+```bash
+cargo run
+```
 
 ## Publish
 
