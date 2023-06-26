@@ -6,6 +6,14 @@
 cargo run
 ```
 
+## Style
+
+Start the TailwindCSS watcher to generate the output CSS file:
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+
 ## Publish
 
 ### Desktop
