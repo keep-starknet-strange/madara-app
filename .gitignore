@@ -19,3 +19,5 @@ Cargo.lock
 /target
 
 dist
+
+public/tailwind.css
