@@ -1,37 +1,19 @@
-# madara-kit
+This is  [Madara webkit](https://github.com/keep-starknet-strange/madara-kit) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`tailwind`](https://tailwindcss.com/docs/installation).
 
-Madara Kit is a simple app to interact with Starknet Appchains.
+## Getting Started
 
-It's built using [Dioxus](https://dioxuslabs.com/), a framework written in Rust, inspired by React.
-
-We can use this [dioxus-tailwindcss template project](https://github.com/LyonSyonII/dioxus-tailwindcss) as a starting point, taking the CI workflows and some of the code.
-
-## Run
+First, run the development server:
 
 ```bash
-cargo run
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-## Style
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Start the TailwindCSS watcher to generate the output CSS file:
 
-```bash
-npx tailwindcss -i ./input.css -o ./public/tailwind.css --watch
-```
-
-## Publish
-
-### Desktop
-
-```bash
-cargo bundle --release
-```
-
-Once you've ran cargo-bundle --release, your app should be accessible in: `target/release/bundle/<platform>/`.
-
-### Web
-
-```bash
-trunk build --release
-```
+# Link to Figma
+[`Figma`](https://www.figma.com/file/6AyuP4IqYQaCFZ949bu0pv/Madara-Webkit?type=design&node-id=3-852&mode=design&t=owaeByUdTCSn6Wqt-0)
