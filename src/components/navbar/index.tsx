@@ -35,7 +35,7 @@ function NavBar() {
             Chain information
           </h4>
           {chainInfo.map((item) => (
-            <ul>
+            <ul key={item.link}>
               <li
                 key={item.link}
                 className={`leading-5  ${
@@ -51,7 +51,7 @@ function NavBar() {
         <div>
           <h4 className="font-normal text-small leading-5">Wizard</h4>
           {wizard.map((item) => (
-            <ul>
+            <ul key={item.link}>
               <li
                 key={item.link}
                 className={`leading-5 text-xsmall ${
