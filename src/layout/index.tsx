@@ -24,6 +24,10 @@ function MadaraLayOut({ children }: { children: React.ReactNode }) {
     case "/blocks":
       headerTitle = "Blocks";
       break;
+
+      case "/transactions":
+        headerTitle = "Transactions";
+        break;
     // Add more cases for additional routes if needed
 
     default:
